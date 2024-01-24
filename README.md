@@ -11,8 +11,10 @@ Welcome to the Hiro Profile tutorial, designed to introduce you to both basic an
          2. [Select PHP Version](#2-select-php-version)
          3. [Enable `pdo_sqlite` Extension](#3-enable-pdo_sqlite-extension)
          4. [Restart Laragon](#4-restart-laragon)
-      3. 
+      3.
    3. [Start the website](#3-start-the-website)
+      1. [Run migrations / Setup databse](#3-start-the-website)
+      2. [Now open the website](#2-now-open-the-website)
 2. [HTML](#1-html)
 3. [CSS](#2-cascading-style-sheets-css)
 4. [JS](#3-javascript-js)
@@ -37,8 +39,8 @@ First of all let's install it first. You will need to install bellow softwares a
 
 1. [Linux - LAMP](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04)
 2. [Mac - MAMP](https://documentation.mamp.info/en/MAMP-Mac/Installation/)
-3. Windows - 
-   1. Laragon(recomonded) 
+3. Windows -
+   1. Laragon(recomonded)
       1. [Article](https://www.nexcess.net/help/laragon/)
       2. [Youtube Tutorial](https://youtu.be/IvcEGATf7dU)
    2. WAMP
@@ -80,6 +82,14 @@ After enabling the extension, restart Laragon. You can do this by right-clicking
 Go to your `www`/`htdocs` folder and move the website files in to a new folder inside of `www`/`htdocs`.
 
 Then you have to open your site according to the given settings.
+
+#### 1. Run migrations / Setup databse
+
+Open the `./db/migrations.php` route in browser. This will automatically create a `./db/database.sqlite` file, Which is our permanent storage.
+
+#### 2. Now open the website
+
+Open it using `/` route in browser.
 
 ## 2. HTML
 
