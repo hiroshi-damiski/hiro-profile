@@ -43,12 +43,12 @@ $user = authenticate('/login.php', 'user-id');
         <div class="mt-2">
             <div class="text-sm text-gray-400">Name:
                 <span class="text-gray-600">
-                    <?php echo $user['name'] ?>
+                    <?= $user['name'] ?>
                 </span>
             </div>
             <div class="text-sm text-gray-400">Email:
                 <span class="text-gray-600">
-                    <?php echo $user['email'] ?>
+                    <?= $user['email'] ?>
                 </span>
             </div>
             <div class="text-sm mt-2">
